@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "pwa":"http-server -c-1 dist/cartdrawnhorse"
   },
   "private": true,
   "dependencies": {
@@ -18,7 +19,9 @@
     "@angular/forms": "~8.2.0",
     "@angular/platform-browser": "~8.2.0",
     "@angular/platform-browser-dynamic": "~8.2.0",
+    "@angular/pwa": "^0.802.0",
     "@angular/router": "~8.2.0",
+    "@angular/service-worker": "~8.2.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
